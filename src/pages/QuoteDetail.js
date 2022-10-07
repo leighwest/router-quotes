@@ -7,11 +7,6 @@ import { getSingleQuote } from 'lib/api';
 import HighlightedQuote from 'components/quotes/HighlightedQuote';
 import LoadingSpinner from 'components/UI/LoadingSpinner';
 
-const DUMMY_QUOTES = [
-  { id: 'q1', author: 'Max', text: 'Learning React is fun!' },
-  { id: 'q2', author: 'Leigh', text: 'Learning React is great!' },
-];
-
 const QuoteDetail = () => {
   const match = useRouteMatch();
   const params = useParams();
